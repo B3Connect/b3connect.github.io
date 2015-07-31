@@ -1,0 +1,45 @@
+.holder {
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  border: 8px solid #205398;
+  transition: all 1.5s;
+  transition-delay: 2.1s;
+}
+
+.loaded .holder {
+  background: #fff;
+  border: 8px solid #0d914b;
+}
+
+#b3Logo {
+  width: 300px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 1.5s;
+  transition-delay: 1.4s;
+}
+
+.loaded #b3Logo {
+  width: 0px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#fanServLogo {
+  width: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1.5s;
+  transition-delay: 2.9s;
+}
+
+.loaded #fanServLogo {
+  width: 300px;
+  opacity: 1;
+  visibility: visible;
+}
